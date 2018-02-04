@@ -15,11 +15,14 @@ gem 'rollbar'
 gem 'oj', '~> 2.12.14'
 
 group :development, :test do
-  gem 'byebug'
 end
 
 group :development do
   gem 'web-console', '~> 2.0'
   gem 'spring'
+  gem 'pry'
+  gem "better_errors"
+  gem "binding_of_caller"
+  gem 'awesome_print'
 end
 
